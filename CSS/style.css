@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* 格式化 */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* body样式 */
+body {
+    background: url(../images/干员列队-金黑-1080.jpg) top no-repeat;
+    background-color: #444444;
+}
+
+/* 网页除背景外其余内容宽度限制盒子样式 */
+.content-box {
+    width: 1200px;
+    height: 10px;
+    margin: 0px auto;
+    position: relative;
+}
+
+/* 网页页头框架样式 */
+.header-box {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(68, 68, 68, 0.5);
+}
+
+/* logo区域样式 */
+.logo-box {
+    float: left;
+    height: 50px;
+}
+
+/* logo样式 */
+.logo {
+    display: block;
+    height: 100%;
+    width: 100px;
+    /* text-indent: 9999em;
+    overflow: hidden; */
+}
+
+/* 登录注册部分盒子样式 */
+.login-register {
+    float: right;
+    height: 50px;
+}
+
+/* 登陆注册链接字体样式 */
+.login-register>a {
+    color: #cccccc;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+/* 网页主体内容框架样式 */
+.main-box {
+    margin-top: 200px;
+}
+
+/* 赛事主题文字样式 */
+.main-text {
+    position: absolute;
+    top: -120px;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-shadow: black 0px 0px 10px;
+    color: #cccccc;
+}
+
+/* 赛事区域盒子样式 */
+.game-view-box {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 赛事展示块样式 */
+.game-view {
+    height: 200px;
+    width: 270px;
+    background-color: #444444;
+    border-radius: 10px;
+    opacity: .7;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.clearfix::after{
+    display: block;
+    height: 0px;
+    content: "";
+    clear: both;
+    visibility: hidden;
+}
+
+.psr {
+    position: relative;
+}
+
+.p-hwcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.p-wcenter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
